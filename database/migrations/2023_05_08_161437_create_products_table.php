@@ -17,9 +17,10 @@ return new class extends Migration
             $table->text('description');
             $table->string('category');
             $table->integer('price');
+            $table->unsignedBigInteger('quantity');
             $table->string('image_url');
             $table->integer('availability');
-            $table->decimal('ratings',2,1);
+            $table->decimal('ratings', 2, 1);
             $table->timestamps();
         });
     }

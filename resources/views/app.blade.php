@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div id="app"></div>
+  <nav id="nav"></nav>
 
   @vite('resources/js/app.js')
 </body>
